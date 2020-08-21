@@ -10,7 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <button>Inaccessible button</button>
+        <button type="button" style={{height: "50px"}}>Inaccessible button</button>
         <a
           className="App-link"
           href="https://reactjs.org"
