@@ -12,6 +12,11 @@
         "render-blocking-resources": ["warn", {"maxLength": 1}],
         "uses-http2": ["warn", {"minScore": 0}]
       }
+    },
+    "upload": {
+      "target": "lhci",
+      "serverBaseUrl": "http://52.142.9.211:9001",
+      "token": "11ec7dae-c54e-4326-badd-ca56f871a372"
     }
   }
 }
